@@ -39,7 +39,7 @@ local Window = Rayfield:CreateWindow({
 local Tab2 = Window:CreateTab("Info", "book-text") -- инфа
 local Tab4 = Window:CreateTab("Halloween", "banknote") -- тыквы круто
 local Tab = Window:CreateTab("Trash", "banknote") -- автофарм trash
-local Tab3 = Window:CreateTab("Beggar", "banknote") -- автофарм beggar
+local Tab3 = Window:CreateTab("Dark", "banknote") -- автофарм beggar
 local Tab5 = Window:CreateTab("Plodder", "banknote") -- автофарм plodder
 local Tab6 = Window:CreateTab("Office Clerk", "banknote") -- автофарм Office Clerk
 local Tab7 = Window:CreateTab("Manager", "banknote") -- автофарм Manager
@@ -230,7 +230,7 @@ local Button = Tab3:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Beggar",
+    "Dark",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -254,7 +254,7 @@ local Button = Tab3:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Beggar",
+    "Dark",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -278,7 +278,7 @@ local Button = Tab3:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Beggar",
+    "Dark",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -302,7 +302,7 @@ local Button = Tab3:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Beggar",
+    "Darkr",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -326,7 +326,7 @@ local Button = Tab3:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Beggar",
+    "Dark",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
