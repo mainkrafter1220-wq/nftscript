@@ -40,7 +40,7 @@ local Tab2 = Window:CreateTab("Info", "book-text") -- инфа
 local Tab4 = Window:CreateTab("Halloween", "banknote") -- тыквы круто
 local Tab = Window:CreateTab("Trash", "banknote") -- автофарм trash
 local Tab3 = Window:CreateTab("Dark", "banknote") -- автофарм beggar
-local Tab5 = Window:CreateTab("Plodder", "banknote") -- автофарм plodder
+local Tab5 = Window:CreateTab("Burj", "banknote") -- автофарм plodder
 local Tab6 = Window:CreateTab("Office Clerk", "banknote") -- автофарм Office Clerk
 local Tab7 = Window:CreateTab("Manager", "banknote") -- автофарм Manager
 local Tab8 = Window:CreateTab("Luxury", "banknote")
@@ -430,7 +430,7 @@ local Button = Tab5:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Plodder",
+    "Burj",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -454,7 +454,7 @@ local Button = Tab5:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Plodder",
+    "Burj",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -478,7 +478,7 @@ local Button = Tab5:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Plodder",
+    "Burj",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -502,7 +502,7 @@ local Button = Tab5:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Plodder",
+    "Burj",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -526,7 +526,7 @@ local Button = Tab5:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Plodder",
+    "Burj",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
@@ -550,7 +550,7 @@ local Button = Tab5:CreateButton({
    Callback = function()
    while true do
     local args = {
-    "Plodder",
+    "Burj",
     10
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenCase"):InvokeServer(unpack(args))
